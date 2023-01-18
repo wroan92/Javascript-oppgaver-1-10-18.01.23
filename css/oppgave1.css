@@ -1,0 +1,17 @@
+.Container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10vh;
+  }
+  .Container button{
+    border-radius: 2rem;
+    border: none;
+    padding: .75rem 3rem;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    background-color: lightblue;
+  }
+  .Container button:hover{
+    transform: scale(1.2);
+    box-shadow: 7px 7px 5px 0px rgba(0, 0, 0, 0.75);
+  }
