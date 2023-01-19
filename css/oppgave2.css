@@ -3,15 +3,15 @@
 }
 .ContainerTaskTwo ol {
   margin-right: 5rem;
-}
+} 
 .inputContainer {
-  width: 100vw;
   display: flex;
   justify-content: center;
+  margin-bottom: 5vh;
 }
 .inputNumber {
   width: 30px;
 }
 .inputContainer button {
-  padding: .2rem 1rem;
+  padding: 0.2rem 1rem;
 }
