@@ -11,7 +11,7 @@ const cityNames = [
   "Stavanger",
 ];
 
-const cityQty = document.querySelector("#citys").value;
+const cityIncrement = document.querySelector("#incrementBtn").value;
 for (let i = 0; i < cityNames.length; i++) {
   document.querySelector(
     "#cityList"
