@@ -1,0 +1,29 @@
+.containerTaskThre{
+    display: flex;
+    flex-direction: row;
+
+}
+.inputContainer{
+    width: 30vw;
+    margin-left: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.inputContainer h3{
+    text-align: left;
+}
+.inputContainer input{
+    padding: .75rem 3rem;
+}
+.inputContainer button{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.personasContainer{
+    display: flex;
+    align-items: center;
+}
+.inputContainer{
+    text-align: left;
+}

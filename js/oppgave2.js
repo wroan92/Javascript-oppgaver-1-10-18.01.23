@@ -33,7 +33,6 @@ document.querySelector("#incrementBtn").addEventListener("click", function() {
       }
   }
 });
-
 document.querySelector("#decrementBtn").addEventListener("click", function() {
   if (limit > 1) {
       limit--;

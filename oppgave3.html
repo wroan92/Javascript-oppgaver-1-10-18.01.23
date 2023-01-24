@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS oppgaver 1-10</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/oppgave3.css" />
+  </head>
+  <body>
+    <header>
+      <a class="homeBtn" href="./index.html">Hjem</a>
+      <nav>
+        <ul>
+          <li><a href="./oppgave1.html">Oppgave 1</a></li>
+          <li><a href="./oppgave2.html">Oppgave 2</a></li>
+          <li><a href="">Oppgave 3</a></li>
+          <li><a href="">Oppgave 4</a></li>
+          <li><a href="">Oppgave 5</a></li>
+          <li><a href="">Oppgave 6</a></li>
+          <li><a href="">Oppgave 7</a></li>
+          <li><a href="">Oppgave 8</a></li>
+          <li><a href="">Oppgave 9</a></li>
+          <li><a href="">Oppgave 10</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Oppgave 3</h1>
+      <h2>
+        Lag en form med input-felt som stiller personas-spørsmål. Når du trykker
+        på "Lag person"-knappen skal det dukke opp et visittkort for denne
+        personen med "svarene".
+      </h2>
+      <!-- Oppgaven løst i js -->
+      <div class="containerTaskThre">
+        <div class="inputContainer">
+          <h3>Fyll inn feltene under og generer ett visittkort</h3>
+          <input type="text" id="firstNameInput" placeholder="Fornavn" />
+          <input type="text" id="lastNameInput" placeholder="Etternavn" />
+          <input type="number" id="ageInput" placeholder="Alder" />
+          <input type="text" id="cityInput" placeholder="By" />
+          <input type="text" id="countryInput" placeholder="Land" />
+          <button id="makePersonasBtn">Lag visittkort</button>
+        </div>
+        <div class="personasContainer">
+            <img src="
+            https://api.lorem.space/image/face?w=150&h=150
+            " alt="Random generated profile picture">
+            <div class="outputContainer">
+                <p>Fornavn:<p id="firstNameOutput"></p></p>
+                <p>Etternavn:<p id="lastNameOutput"></p></p>
+                <p>Alder:<p id="ageOutput"></p></p>
+                <p>Bosted:<p id="cityOutput"></p></p>
+                <p>Land:<p id="countryOutput"></p></p>
+            </div>
+        </div>
+      </div>
+      <!--  -->
+      <p>&#169; Anders Wroldsen</p>
+    </main>
+    <script src="./js/oppgave3.js"></script>
+  </body>
+</html>
