@@ -20,10 +20,27 @@
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
-.personasContainer{
+.cardContainer{
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.358);
+    width: 30%;
+    height: 200px;
+    margin-left: 10%;
     display: flex;
     align-items: center;
 }
-.inputContainer{
+.outputContainer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+.outputContainer p{
+    width: 400px;
     text-align: left;
+    font-size: 1.5rem;
+    margin-bottom: 2%;
+}
+.imgContainer img{
+    margin-left: 5%;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.151);
+    border-radius: 50%;
 }

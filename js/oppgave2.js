@@ -12,7 +12,7 @@ const cityNames = [
 ];
 let limit = 10;
 
-function updateCityList(limit) {
+updateCityList = (limit) => {
   document.querySelector("#cityList").innerHTML = "";
   for (let i = 0; i < limit; i++) {
     document.querySelector("#cityList").innerHTML += `<li> ${cityNames[i]} </li>`;
@@ -35,9 +35,9 @@ document.querySelector("#decrementBtn").addEventListener("click", function() {
   }
 });
 
-document.querySelector("#limitInput").addEventListener("keypress", event => {
+document.querySelector("#citysInput").addEventListener("keypress", event => {
   if (event.key === "Enter") {
-    limit = document.getElementById("limitInput").value;
+    limit = document.getElementById("citysInput").value;
     if(limit < 1) limit = 1;
     if(limit > cityNames.length) limit = cityNames.length;
     updateCityList(limit);
