@@ -1,46 +1,60 @@
-.containerTaskThre{
-    display: flex;
-    flex-direction: row;
+.containerTaskThre {
+  display: flex;
+  justify-content: center;
+}
+.inputContainer {
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.inputContainer h3 {
+  text-align: left;
+}
+.inputContainer input {
+  padding: 0.75rem 3rem;
+}
+.inputContainer button {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 5%;
+}
+.hide {
+  display: none;
+}
+.cardContainer {
+  margin-bottom: 5%;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.358);
+  width: 30%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
 
+.outputContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
 }
-.inputContainer{
-    width: 30vw;
-    margin-left: 10vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+.outputContainer p {
+  width: 400px;
+  text-align: left;
+  font-size: 1.5rem;
+  margin-bottom: 2%;
 }
-.inputContainer h3{
-    text-align: left;
+.imgContainer img {
+  margin-left: 5%;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.151);
+  border-radius: 50%;
 }
-.inputContainer input{
-    padding: .75rem 3rem;
+.btnContainer{
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
 }
-.inputContainer button{
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
-.cardContainer{
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.358);
-    width: 30%;
-    height: 200px;
-    margin-left: 10%;
-    display: flex;
-    align-items: center;
-}
-.outputContainer{
-    display: flex;
-    flex-direction: column;
-    margin-left: 5%;
-}
-.outputContainer p{
-    width: 400px;
-    text-align: left;
-    font-size: 1.5rem;
-    margin-bottom: 2%;
-}
-.imgContainer img{
-    margin-left: 5%;
-    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.151);
-    border-radius: 50%;
+.tryAgainBtn{
+    padding: 0.75rem 3rem;
+    
 }
