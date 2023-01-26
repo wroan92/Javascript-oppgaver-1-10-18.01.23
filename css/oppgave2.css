@@ -1,6 +1,17 @@
-.ContainerTaskTwo li{
-    list-style:decimal;
-  }
-.ContainerTaskTwo ol{
-    margin-right: 5rem;
+.ContainerTaskTwo li {
+  list-style: decimal;
+}
+.ContainerTaskTwo ol {
+  margin-right: 5rem;
+} 
+.inputContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+.inputNumber {
+  width: 30px;
+}
+.inputContainer button {
+  padding: 0.2rem 1rem;
 }
