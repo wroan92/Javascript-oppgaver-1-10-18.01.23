@@ -1,13 +1,32 @@
-const menu = document.createElement("header")
-menu.id = "header"
+document.addEventListener("DOMContentLoaded", function() {
+  const navbarContainer = document.querySelector("header")
+  
+  const nav = document.createElement("nav");
+  const navbar = document.createElement("ul");
+  
+  const home = document.createElement("li");
+  const homeLink = document.createElement("a");
+  homeLink.href = "./index.html";
+  homeLink.innerText = "Hjem";
+  home.appendChild(homeLink);
 
-const ul = document.createElement("ul")
-const oppgave1 = document.createElement("li");
-const oppgave1Link = document.createElement("a");
-oppgave1Link.href = "oppgave1.html";
-oppgave1Link.innerHTML = "Oppgave 1"
-oppgave1.appendChild(Oppgave1Link);
+  const taskOne = document.createElement("li");
+  const taskOneLink = document.createElement("a");
+  taskOneLink.href = "./oppgave1.html";
+  taskOneLink.innerText = "Oppgave 1";
+  taskOne.appendChild(taskOneLink);
 
-ul.appendChild(ul)
-
-document.body.appendChild(header)
+  const taskTwo = document.createElement("li");
+  const taskTwoLink = document.createElement("a");
+  taskTwoLink.href = "./oppgave2.html";
+  taskTwoLink.innerText = "Oppgave 2";
+  taskTwo.appendChild(taskTwoLink);
+  
+  
+  navbar.appendChild(home)
+  navbar.appendChild(taskOne);
+  navbar.appendChild(taskTwo);
+  
+  nav.appendChild(navbar);
+  navbarContainer.appendChild(nav);
+});
