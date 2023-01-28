@@ -9,23 +9,7 @@
     <link rel="stylesheet" href="./css/oppgave3.css" />
   </head>
   <body>
-    <header>
-      <a class="homeBtn" href="./index.html">Hjem</a>
-      <nav>
-        <ul>
-          <li><a href="./oppgave1.html">Oppgave 1</a></li>
-          <li><a href="./oppgave2.html">Oppgave 2</a></li>
-          <li><a href="./oppgave3.html">Oppgave 3</a></li>
-          <li><a href="">Oppgave 4</a></li>
-          <li><a href="">Oppgave 5</a></li>
-          <li><a href="">Oppgave 6</a></li>
-          <li><a href="">Oppgave 7</a></li>
-          <li><a href="">Oppgave 8</a></li>
-          <li><a href="">Oppgave 9</a></li>
-          <li><a href="">Oppgave 10</a></li>
-        </ul>
-      </nav>
-    </header>
+    <header></header>
     <main>
       <h1>Oppgave 3</h1>
       <h2>
@@ -44,24 +28,27 @@
           <input type="text" id="countryInput" placeholder="Land" />
           <button id="makePersonasBtn">Lag visittkort</button>
         </div>
-        
+
         <div class="hide">
           <div class="imgContainer">
-            <img src="
+            <img
+              src="
             https://api.lorem.space/image/face?w=150&h=150
-            " alt="Random generated profile picture">
+            "
+              alt="Random generated profile picture"
+            />
           </div>
 
-          <div class="outputContainer" id="outputContainer">
+          <div class="outputContainer" id="outputContainer"></div>
         </div>
       </div>
-    </div>
-    <div class="btnContainer">
-    <button class="tryAgainBtn" id="tryAgainBtn">Prøv på nytt</button>
-  </div>
+      <div class="btnContainer">
+        <button class="tryAgainBtn" id="tryAgainBtn">Prøv på nytt</button>
+      </div>
       <!--  -->
       <p>&#169; Anders Wroldsen</p>
     </main>
+    <script src="./js/header.js"></script>
     <script src="./js/oppgave3.js"></script>
   </body>
 </html>

@@ -3,13 +3,12 @@ document.addEventListener("DOMContentLoaded", function() {
   
   const nav = document.createElement("nav");
   const navbar = document.createElement("ul");
-  
-  const home = document.createElement("li");
-  const homeLink = document.createElement("a");
-  homeLink.href = "./index.html";
-  homeLink.innerText = "Hjem";
-  home.appendChild(homeLink);
 
+  const homeBtn = document.createElement("a")
+  homeBtn.className = "homeBtn"
+  homeBtn.href = "./index.html";
+  homeBtn.innerText = "Hjem"
+  
   const taskOne = document.createElement("li");
   const taskOneLink = document.createElement("a");
   taskOneLink.href = "./oppgave1.html";
@@ -46,14 +45,13 @@ document.addEventListener("DOMContentLoaded", function() {
   taskSixLink.innerText = "Oppgave 6"
   taskSix.appendChild(taskSixLink)
   
-
-  navbar.appendChild(home)
+  navbarContainer.appendChild(homeBtn);
   navbar.appendChild(taskOne);
   navbar.appendChild(taskTwo);
-  navbar.appendChild(taskThre)
-  navbar.appendChild(taskFour)
-  navbar.appendChild(taskFive)
-  navbar.appendChild(taskSix)
+  navbar.appendChild(taskThre);
+  navbar.appendChild(taskFour);
+  navbar.appendChild(taskFive);
+  navbar.appendChild(taskSix);
   
   nav.appendChild(navbar);
   navbarContainer.appendChild(nav);
