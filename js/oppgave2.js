@@ -11,7 +11,7 @@ const cityNames = [
   "Stavanger",
 ];
 let limit = 10;
-
+// legge til cityNames.length i stede for limit?
 updateCityList = (limit) => {
   document.querySelector("#cityList").innerHTML = "";
   for (let i = 0; i < limit; i++) {

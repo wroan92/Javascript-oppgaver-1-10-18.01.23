@@ -14,9 +14,9 @@ header {
   flex-direction: column;
 }
 .homeBtn {
-  color: darkblue;
+  color: rgb(0, 0, 0);
   margin-bottom: 1rem;
-  font-size: 1.5rem;
+  font-size: 3rem;
 }
 .homeBtn:hover {
   text-decoration: underline;
