@@ -1,3 +1,8 @@
+.ContainerTaskTwo{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10vh;
+}
 .ContainerTaskTwo li {
   list-style: decimal;
 }
