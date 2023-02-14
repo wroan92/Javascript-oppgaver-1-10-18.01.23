@@ -1,0 +1,54 @@
+/* Color button's */
+#redBtn{
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    width: 100px;
+    height: 50px;
+}
+#blueBtn{
+    background-color: blue;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    width: 100px;
+    height: 50px;
+}
+#greenBtn{
+    background-color: green;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    width: 100px;
+    height: 50px;
+}
+#yellowBtn{
+    background-color: yellow;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    width: 100px;
+    height: 50px;
+}
+/* Number button's */
+#oneBtn, #twoBtn, #threeBtn, #fourBtn, #fiveBtn, #sixBtn, #sevenBtn, #eightBtn, #nineBtn, #zeroBtn{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    width: 100px;
+    height: 50px;
+    display: none;
+}
+
