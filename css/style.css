@@ -7,20 +7,21 @@
 }
 header {
   background-color: cornflowerblue;
-  height: 20vh;
+  height: 15vh;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   flex-direction: column;
 }
-.homeBtn {
+/* .homeBtn {
   color: rgb(0, 0, 0);
   margin-bottom: 1rem;
-  font-size: 3rem;
+  font-size: 2rem;
+  display: flex;
 }
 .homeBtn:hover {
   text-decoration: underline;
-}
+} */
 nav ul {
   display: flex;
   flex-direction: row;
@@ -63,10 +64,5 @@ main p {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-}
-.ContainerTaskTwo{
-  display: flex;
-  justify-content: center;
-  margin-bottom: 10vh;
 }
 

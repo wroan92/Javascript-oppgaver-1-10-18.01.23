@@ -1,3 +1,4 @@
+// To do: Clear input when try again. 
 const cardContainer = document.querySelector(".hide");
 const inputContainer = document.querySelector(".inputContainer");
 
@@ -15,7 +16,6 @@ document.querySelector("#makePersonasBtn").addEventListener("click", event =>  {
     const country = document.querySelector("#countryInput").value;
 
     document.querySelector("#outputContainer").innerHTML = 
-
     `Navn: ${firstName} ${lastName} <br>
      Alder: ${age} <br>
      Bosted: ${city} <br>
